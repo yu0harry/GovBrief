@@ -2,10 +2,6 @@
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
 
-# Validation (필수)
-pydantic==2.5.0
-pydantic-settings==2.1.0
-
 # 파일 업로드
 python-multipart==0.0.6
 
@@ -16,19 +12,11 @@ python-dotenv==1.0.0
 google-generativeai==0.3.1
 
 # 문서 처리
-# PyMuPDF==1.23.8  # fitz로 import
 pdfplumber==0.10.3
 PyPDF2==3.0.1
 python-docx==1.1.0
-olefile==0.47  # HWP 파일 처리
-
-# 이미지 처리 (Railway 빌드 문제로 주석 처리 - 필요시 주석 해제)
-# Pillow==10.4.0  # Python 3.13 호환
-# numpy==1.26.4  # Python 3.13 호환
-# opencv-python==4.8.1.78  # Railway 빌드 문제로 주석 처리
-# easyocr==1.7.1  # Railway 빌드 문제로 주석 처리
+olefile==0.47
 
 # 유틸리티
 aiofiles==23.2.1
 requests==2.31.0
-
